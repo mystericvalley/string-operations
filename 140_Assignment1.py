@@ -1,8 +1,4 @@
-#NAME :- PRIYANSHU VERMA
-#DIVISION :- UBUNTU
-#ROLL NUMBER :- 140
-
-
+#string operations are performed
 
 #def word_with_longest_length():
 #def Words(str):
@@ -40,7 +36,7 @@ def frequency_of_occurrence_of_character():
 
 
 
-def string_is_palindrome_or_not():
+def palindrome_check():
     str = input("Enter string : ")
     if (str == str[::-1]):
         print("The string is palindrome")
@@ -106,7 +102,7 @@ while(1):
     elif(z==2):
         frequency_of_occurrence_of_character()
     elif(z==3):
-        string_is_palindrome_or_not()
+        palindrome_check()
     elif(z==4):
         index_of_appearance_of_the_substring()
     elif(z==5):
