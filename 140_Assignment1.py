@@ -22,7 +22,7 @@ str = input("Enter the String : ")
     for i in list:
         if len(i) > len(longest_word):
             longest_word = i
-    print("Longest word is :", longest_word, "\nAnd its lengt))
+    print("Longest word is :", longest_word, "\nAnd its length))
 
 
 def frequency_of_occurrence_of_character():
@@ -64,7 +64,7 @@ def index_of_appearance_of_the_substring():
                 flag = 1
             if flag:
                 break
-            k = k + 1
+            k = k+1
         if flag == 0:
             res.append(i)
     print("resultant positions", str(res))
@@ -72,7 +72,7 @@ def index_of_appearance_of_the_substring():
 
 
 def occurrences_of_each_word_in_a_string():
-    string = input("Enter string : ")
+    string = input("Enter the string : ")
     string = string.lower()
     words = []
     words_count = {}
