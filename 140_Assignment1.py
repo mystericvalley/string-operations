@@ -1,7 +1,4 @@
-#NAME :- PRIYANSHU VERMA
-#DIVISION :- UBUNTU
-#ROLL NUMBER :- 140
-
+#all the names and data has been removed
 
 
 #def word_with_longest_length():
@@ -93,7 +90,7 @@ def occurrences_of_each_word_in_a_string():
         print(word, count)
 
 
-
+#while loop is iterating
 while(1):
     print("""\n1.Word with the longest length \n2.Frequency of occurrence of character \n3.String is palindrome or not \n4.Index of first appearance of the substring \n5.Occurrences of each word in a string""")
     print("-1 to exit")
